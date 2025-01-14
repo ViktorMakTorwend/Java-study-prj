@@ -58,9 +58,18 @@ public class Main {
 //            array[i] = i;
 //            System.out.println(array[i]);
 //        }
+//
+//        Person man_1 = new Person();
+//        Person man_2 = new Person("Vik", 10);
+//        System.out.println(man_2.age);
 
-        Person man_1 = new Person();
-        Person man_2 = new Person("Vik", 10);
-        System.out.println(man_2.age);
+//        Person man_2 = new Person("Tor", 50);
+//        System.out.println(man_2.getName());
+//
+//        man_2.setName("alex");
+//        System.out.println(man_2.getName());
+
+        Person man_2 = new Person("Tor", 50);
+        man_2.printNameAndSecondName("VIK", 25);
     }
 }
