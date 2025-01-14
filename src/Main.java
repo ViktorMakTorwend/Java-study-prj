@@ -20,6 +20,37 @@ public class Main {
 //        double c = (double) a / b;
 //        System.out.println(c);  // 0.5
 
+//        int example = 15;
+//        if(example > 5) {
+//            example += 10;
+//        }
+//        System.out.println(example);
 
+//        int a = 1;
+//          switch (a) {
+//              case 1 -> System.out.println(1);
+//              default -> System.out.println(100);
+//          }
+//        int a = 1;
+//        String s = switch (a) {
+//            case 1 -> "one";
+//            default -> "default";
+//        };
+//        System.out.println(s);
+
+//        int age = 20;
+//        String info = age >= 18 ? "adult" : "teen";
+//        System.out.println(info);
+
+//        int a = 0;
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println(a);
+//            a++;
+//        }
+
+        int [] array = new int [10];
+        for (int num : array) {
+            System.out.println(num);
+        }
     }
 }
