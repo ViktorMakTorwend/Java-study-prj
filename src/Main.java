@@ -48,9 +48,19 @@ public class Main {
 //            a++;
 //        }
 
-        int [] array = new int [10];
-        for (int num : array) {
-            System.out.println(num);
-        }
+//        int [] array = new int [10];
+//        for (int num : array) {
+//            System.out.println(num);
+//        }
+
+//        int [] array = new int [5];
+//        for (int i = 0; i < array.length; i++) {
+//            array[i] = i;
+//            System.out.println(array[i]);
+//        }
+
+        Person man_1 = new Person();
+        Person man_2 = new Person("Vik", 10);
+        System.out.println(man_2.age);
     }
 }
