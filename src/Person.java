@@ -2,15 +2,16 @@ package src;
 
 public class Person {
     private  String name;
-    int age;
+    //int age;
+    public static int count = 0;
 
     public Person() {
 
     }
 
-    public Person(String name, int age ) {
+    public Person(String name) {
         this.name = name;
-        this.age = age;
+        count++;
     }
 
     public String getName() {
@@ -24,5 +25,9 @@ public class Person {
     public void printNameAndSecondName(String name, int age) {
         System.out.println("Name is: " + name);
         System.out.println("Age is: " + age);
+    }
+
+    public void printName() {
+        System.out.println("Name: " + name);
     }
 }

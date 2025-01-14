@@ -1,5 +1,7 @@
 package  src;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        System.out.println("Hello world");
@@ -69,7 +71,21 @@ public class Main {
 //        man_2.setName("alex");
 //        System.out.println(man_2.getName());
 
-        Person man_2 = new Person("Tor", 50);
-        man_2.printNameAndSecondName("VIK", 25);
+//        Person man_2 = new Person("Tor", 50);
+//        man_2.printNameAndSecondName("VIK", 25);
+
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.nextLine();
+//
+//        Person man_3 = new Person(name);
+//        man_3.printName();
+
+//        final double PI = 3.14;
+
+         Person man_3 = new Person("Alex");
+         Person man_4 = new Person("And");
+        System.out.println(man_3.count);
+        System.out.println(man_4.count);
+        System.out.println(Person.count);
     }
 }
